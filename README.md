@@ -38,21 +38,21 @@ Paste the relevant @font-face to the file you encoded to Base64:
 /* WOFF Web Open Font Format */
 @font-face {
     font-family: 'custom-font';
-    url(data:font/woff;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_WOFF_FILE_HERE) format('woff');
+    src: url(data:font/woff;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_WOFF_FILE_HERE) format('woff');
 }
 ```
 ```css
 /* OTF OpenType */
 @font-face {
     font-family: 'custom-font';
-    url(data:font/otf;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_OTF_FILE_HERE) format('opentype');
+    src: url(data:font/otf;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_OTF_FILE_HERE) format('opentype');
 }
 ```
 ```css
 /* TTF TrueType */
 @font-face {
     font-family: 'custom-font';
-    url(data:font/ttf;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_TTF_FILE_HERE) format('truetype');
+    src: url(data:font/ttf;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_TTF_FILE_HERE) format('truetype');
 }
 ```
 
