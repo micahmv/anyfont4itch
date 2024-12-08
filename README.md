@@ -17,7 +17,7 @@ Use any desired custom font on [itch.io](https://itch.io/) with a woff2, woff, o
 ## Enable CSS Account Access
 Before adding custom CSS to your page, you’ll need to enable CSS permissions for your account. To do this, send an email to [support@itch.io](mailto:support@itch.io).
 
-In your email, include the type of changes you intend to make and confirm that your modifications will only affect visuals. You can find detailed instructions on what to include in your request [here](https://itch.io/docs/creators/css-guide#getting-css-access). .
+In your email, include the type of changes you intend to make and confirm that your modifications will only affect visuals. You can find detailed instructions on what to include in your request [here](https://itch.io/docs/creators/css-guide#getting-css-access).
 
 Response times may vary, but itch.io typically approves requests. In my experience, it has taken 1-2 weeks to receive a response. Once your CSS permissions are granted, return to this guide and proceed to the next step.
 
