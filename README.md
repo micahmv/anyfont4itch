@@ -105,6 +105,15 @@ Paste the below for a **profile page**:
 ```
 
 ## Helpful CSS for Text Settings & Sizing
+It's likely you'll need to find the right settings and size for your text to fit your page. As well, different sections (like body vs footer) might need different text sizes. CSS is a styling language and there exists much more to customize your text, this is just a minimum to have correct text settings and size your text to fit. 
+
+Paste any of the lines below between the {} of the @font-face to apply to all text or into the {} of any specified html element to apply individually.
+```css
+    font-weight: normal; /* options: normal, bold, bolder, lighter or a specified thickness value */
+    font-style: normal; /* options: normal, italic, oblique */
+    font-size: 20px;
+    letter-spacing: 1px; /* space between characters */
+```
 
 ## Loading Font from Web
 
