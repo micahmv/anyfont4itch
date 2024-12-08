@@ -60,6 +60,11 @@ Paste the relevant @font-face for your filetype before it was encoded, replacing
 Paste the below for a **PROJECT** page:
 ```css
 /* Apply the custom font to the specified HTML elements */
+/* Title of the project if there's no banner */
+.header h1 {
+    font-family: custom-font;
+}
+
 /* Page content including description, more information, download, devlogs, comments, etc */
 .left_col.column {
     font-family: custom-font;
