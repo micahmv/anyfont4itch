@@ -10,7 +10,8 @@ Use any desired custom font on [itch.io](https://itch.io/) with a woff2, woff, o
 
 ## Extras
 - [Helpful CSS for Text Settings & Sizing](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#helpful-css-for-text-settings--sizing)
-- [Loading Font from Web](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#loading-font-from-web)
+- [Reached Maximum Character Count?](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#reached-maximum-character-count?)
+- [Loading Font from URL](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#loading-font-from-url)
 - [Examples](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#examples)
 
 ## Enable CSS Account Access
@@ -56,7 +57,7 @@ Paste the relevant @font-face to the file you encoded to Base64:
 }
 ```
 
-Paste the below for a **project page**:
+Paste the below for a **PROJECT** page:
 ```css
 /* Apply the custom font to the specified HTML elements */
 /* Page content including description, more information, download, devlogs, comments, etc */
@@ -75,7 +76,7 @@ Paste the below for a **project page**:
 }
 ```
 
-Paste the below for a **profile page**:
+Paste the below for a **PROFILE** page
 ```css
 /* Apply the custom font to the specified HTML elements */
 /* Profile name */
@@ -105,7 +106,7 @@ Paste the below for a **profile page**:
 ```
 
 ## Helpful CSS for Text Settings & Sizing
-It's likely you'll need to find the right settings and size for your text to fit your page. As well, different sections (like body vs footer) might need different text sizes. CSS is a styling language and there exists much more to customize your text, this is just a minimum to have correct text settings and size your text to fit. 
+It's likely you'll need to find the right settings and size for your text to fit your page. As well, different sections (like body vs footer) might need different text sizes. CSS is a styling language and there exists much more to customize your text, this is just a minimum to have correct text settings and size your text to fit your page. 
 
 Paste any of the lines below between the {} of the @font-face to apply to all text or into the {} of any specified html element to apply individually.
 ```css
@@ -115,6 +116,19 @@ Paste any of the lines below between the {} of the @font-face to apply to all te
     letter-spacing: 1px; /* space between characters */
 ```
 
-## Loading Font from Web
+## Reached Maximum Character Count?
+Itch Custom CSS inclusion has a maximum character count of ______. Large files converted to Base64 will be encoded as longer strings. As such it's possible to fill up the character count from a files size/Base64 strings length, the inclusion of multiple fonts, or having a significant amount of added custom css. In this case, I would recommend using woff2 exclusively as the file converted to Base64 as it's the smallest file web font data type. Another solution can be using a url to an online hosted font file to reduce characters used by Base64 font characters.
+
+## Loading Font from URL
+If your font is already being hosted online and is consistently accessible you can simply load it using the url.
+```css
+@font-face {
+    font-family: 'custom-font';
+    src: url('YOUR_WEB_HOSTED_WOFF2_FILE_URL_PATH') format('woff2'),
+         url('YOUR_WEB_HOSTED_WOFF_FILE_URL_PATH') format('woff'),
+         url('YOUR_WEB_HOSTED_OTF_FILE_URL_PATH') format('opentype'),
+         url('YOUR_WEB_HOSTED_TTF_FILE_URL_PATH') format('truetype');
+}
+```
 
 ## Examples
