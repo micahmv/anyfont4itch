@@ -119,7 +119,7 @@ Paste any of the lines below between the {} of the @font-face to apply to all te
 ```
 
 ## Reached Maximum Character Count?
-Itch Custom CSS inclusion has a maximum character count of ______. Large files converted to Base64 will be encoded as longer strings. As such it's possible to fill up the character count from a files size/Base64 strings length, the inclusion of multiple fonts, or having a significant amount of added custom css. In this case, I would recommend using woff2 exclusively as the file converted to Base64 as it's the smallest file web font data type. Another solution can be using a url to an online hosted font file to reduce characters used by Base64 font characters.
+Itch Custom CSS inclusion has a maximum character count. Large files converted to Base64 will be encoded as longer strings. As such it's possible to fill up the character count from a files size/Base64 strings length, the inclusion of multiple fonts, or having a significant amount of added custom css. In this case, I would recommend using woff2 exclusively as the file converted to Base64 as it's the smallest file web font data type. Another solution can be using a url to an online hosted font file to reduce characters used by Base64 font characters.
 
 ## Loading Font from URL
 If your font is already being hosted online and is consistently accessible you can simply load it using the url.
@@ -134,3 +134,4 @@ If your font is already being hosted online and is consistently accessible you c
 ```
 
 ## Examples
+
