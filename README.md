@@ -1,2 +1,2 @@
 # anyfont4itch
-Use any desired custom font on itch.io with a ttf, otf, or woff2 file.
+Use any desired custom font on [itch.io] with a woff2, woff, otf, or ttf file.
