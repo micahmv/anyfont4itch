@@ -1,0 +1,23 @@
+/* Paste the code below in your itch.io pages Custom CSS section from the 'Edit theme' button on your page */
+
+/* Define a custom font using a base64-encoded WOFF2 file */
+@font-face {
+    font-family: 'custom-font';
+    src: url(data:application/font-woff2;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_FONT_FILE_HERE) format('woff2');
+}
+
+/* Apply the custom font to the specified HTML elements */
+/* Page content including description, more information, download, devlogs, comments, etc */
+.left_col.column {
+    font-family: custom-font;
+}
+
+/* Footer (bottom of the page) that shows: ITCH.IO--VIEW ALL BY CREATOR--REPORT--EMBED      TYPE*GENRE*PRICE */
+.footer a {
+    font-family: custom-font;
+}
+
+/* Last updated timestamp in the footer after EMBED */
+.update_timestamp {
+    font-family: custom-font;
+}
