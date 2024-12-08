@@ -1,0 +1,33 @@
+/* Paste the code below in your itch.io profiles Custom CSS section from the 'Edit theme' button on your page */
+
+/* Define a custom font using a base64-encoded WOFF2 file */
+@font-face {
+    font-family: 'custom-font';
+    src: url(data:application/font-woff2;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_FONT_FILE_HERE) format('woff2');
+}
+
+/* Apply the custom font to the specified HTML elements */
+/* Profile name */
+.inner_column.text_header {
+    font-family: custom-font;
+}
+
+/* Profile links */
+.user_links a {
+    font-family: mono;
+}
+
+/* The content of your profile page */
+.user_profile.formatted {
+    font-family: custom-font;
+}
+
+/* Games including their title, description, genre, and play in browser if web */
+.column.game_column {
+    font-family: custom-font;
+}
+
+/* Footer (bottom of the page) */
+.footer {
+    font-family: custom-font;
+}
