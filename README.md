@@ -10,7 +10,7 @@ Use any desired custom font on [itch.io](https://itch.io/) with a woff2, woff, o
 
 ## Extras
 - [Helpful CSS for Text Settings & Sizing](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#helpful-css-for-text-settings--sizing)
-- [Reached Maximum Character Count?](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#reached-maximum-character-count?)
+- [Reached Maximum Character Count?](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#reached-maximum-character-count)
 - [Loading Font from URL](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#loading-font-from-url)
 - [Examples](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#examples)
 
