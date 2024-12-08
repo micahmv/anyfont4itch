@@ -81,7 +81,7 @@ Paste the below for a **PROJECT** page:
 }
 ```
 
-Paste the below for a **PROFILE** page
+Paste the below for a **PROFILE** page:
 ```css
 /* Apply the custom font to the specified HTML elements */
 /* Profile name */
