@@ -110,10 +110,12 @@ It's likely you'll need to find the right settings and size for your text to fit
 
 Paste any of the lines below between the {} of the @font-face to apply to all text or into the {} of any specified html element to apply individually.
 ```css
+@font-face or .specified-element {
     font-weight: normal; /* options: normal, bold, bolder, lighter or a specified thickness value */
     font-style: normal; /* options: normal, italic, oblique */
     font-size: 20px;
     letter-spacing: 1px; /* space between characters */
+}
 ```
 
 ## Reached Maximum Character Count?
