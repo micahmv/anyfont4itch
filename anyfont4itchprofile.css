@@ -1,9 +1,13 @@
 /* Paste the code below in your itch.io profiles Custom CSS section from the 'Edit theme' button on your page */
 
-/* Define a custom font using a base64-encoded WOFF2 file */
+/* Define a custom font using a base64-encoded font file */
+/* Delete url lines that aren't your file type */
 @font-face {
     font-family: 'custom-font';
-    src: url(data:application/font-woff2;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_FONT_FILE_HERE) format('woff2');
+    src: url(data:font/woff2;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_WOFF2_FILE_HERE) format('woff2'),
+         url(data:font/woff;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_WOFF_FILE_HERE) format('woff'),
+         url(data:font/otf;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_OTF_FILE_HERE) format('opentype'),
+         url(data:font/ttf;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_TTF_FILE_HERE) format('truetype');
 }
 
 /* Apply the custom font to the specified HTML elements */
