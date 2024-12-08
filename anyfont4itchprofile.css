@@ -1,7 +1,7 @@
 /* Paste the code below in your itch.io profiles Custom CSS section from the 'Edit theme' button on your page */
 
 /* Define a custom font using a base64-encoded font file */
-/* Delete url lines that aren't your file type */
+/* Delete lines and only keep the one(s) for your relevant filetype */
 @font-face {
     font-family: 'custom-font';
     src: url(data:font/woff2;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_WOFF2_FILE_HERE) format('woff2'),
