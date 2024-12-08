@@ -19,26 +19,28 @@ Response times vary, however itch generally approves all requests. Once you have
 To use the font on itch.io, the file needs to be converted to Base64. This process encodes the file into a long string of characters, which can then be included with the rest of the css. To convert your file, there exist a variety of online options. I’ve used https://base64.guru/converter/encode/file for this purpose.
 
 ## Copy & Paste
-Use the relevant @font-face to the file you encoded to Base64.
+With your account now having CSS access, pase the code below in your itch.io pages Custom CSS section from the 'Edit theme' button on your page.
+
+Paste the relevant @font-face to the file you encoded to Base64:
 ```css
-/* WOFF2 */
+/* WOFF2 Web Open Font Format 2 */
 @font-face {
     font-family: 'custom-font';
     src: url(data:font/woff2;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_WOFF2_FILE_HERE) format('woff2');
 }
 ```
 ```css
-/* WOFF */
+/* WOFF Web Open Font Format */
 @font-face {
     font-family: 'custom-font';
-         url(data:font/woff;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_WOFF_FILE_HERE) format('woff');
+    url(data:font/woff;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_WOFF_FILE_HERE) format('woff');
 }
 ```
 ```css
 /* OTF OpenType */
 @font-face {
     font-family: 'custom-font';
-         url(data:font/otf;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_OTF_FILE_HERE) format('opentype');
+    url(data:font/otf;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_OTF_FILE_HERE) format('opentype');
 }
 ```
 ```css
@@ -46,5 +48,53 @@ Use the relevant @font-face to the file you encoded to Base64.
 @font-face {
     font-family: 'custom-font';
     url(data:font/ttf;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_TTF_FILE_HERE) format('truetype');
+}
+```
+
+Paste the below to apply to a project page:
+```css
+/* Apply the custom font to the specified HTML elements */
+/* Page content including description, more information, download, devlogs, comments, etc */
+.left_col.column {
+    font-family: custom-font;
+}
+
+/* Footer (bottom of the page) that shows: ITCH.IO--VIEW ALL BY CREATOR--REPORT--EMBED      TYPE*GENRE*PRICE */
+.footer a {
+    font-family: custom-font;
+}
+
+/* Last updated timestamp in the footer after EMBED */
+.update_timestamp {
+    font-family: custom-font;
+}
+```
+
+Paste the below to apply to a profile page:
+```css
+/* Apply the custom font to the specified HTML elements */
+/* Profile name */
+.inner_column.text_header {
+    font-family: custom-font;
+}
+
+/* Profile links */
+.user_links a {
+    font-family: mono;
+}
+
+/* The content of your profile page */
+.user_profile.formatted {
+    font-family: custom-font;
+}
+
+/* Games including their title, description, genre, and play in browser if web */
+.column.game_column {
+    font-family: custom-font;
+}
+
+/* Footer (bottom of the page) */
+.footer {
+    font-family: custom-font;
 }
 ```
