@@ -28,15 +28,23 @@ Use the relevant @font-face to the file you encoded to Base64.
 }
 ```
 ```css
-```
-/* WOFF2 */
+/* WOFF */
 @font-face {
     font-family: 'custom-font';
          url(data:font/woff;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_WOFF_FILE_HERE) format('woff');
 }
 ```
-         url(data:font/woff;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_WOFF_FILE_HERE) format('woff'),      /* Older browsers */
-         url(data:font/otf;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_OTF_FILE_HERE) format('opentype'),   /* OTF OpenType format */
-         url(data:font/ttf;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_TTF_FILE_HERE) format('truetype');   /* TTF TrueType for very old browsers */
+```css
+/* OTF OpenType */
+@font-face {
+    font-family: 'custom-font';
+         url(data:font/otf;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_OTF_FILE_HERE) format('opentype');
+}
+```
+```css
+/* TTF TrueType */
+@font-face {
+    font-family: 'custom-font';
+    url(data:font/ttf;charset=utf-8;base64,PASTE_BASE64_CONVERSION_OF_TTF_FILE_HERE) format('truetype');
 }
 ```
