@@ -1,7 +1,7 @@
 # anyfont4itch
 Use any desired custom font on [itch.io](https://itch.io/) with a woff2, woff, otf, or ttf font file.
 
-[Itch.io](https://itch.io/) pages are limited to fonts hosted on Google Fonts. While this provides a wide selection (1,731 fonts as of 2024), many projects feature custom fonts that are tied to their brainding or are used in-game. Incorporating your project’s font into your itch.io page is straightforward and helps maintain consistency with your game’s theme and aesthetic.
+[itch.io](https://itch.io/) pages are limited to fonts hosted on Google Fonts. While this provides a wide selection (1,731 fonts as of 2024), many projects feature custom fonts that are tied to their brainding or are used in-game. Incorporating your project’s font into your itch.io page is straightforward and helps maintain consistency with your game’s theme and aesthetic.
 
 ## Steps
 1. [Enable CSS Account Access](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#enable-css-account-access)
