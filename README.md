@@ -56,7 +56,7 @@ Paste the relevant @font-face to the file you encoded to Base64:
 }
 ```
 
-Paste the below to apply to a project page:
+Paste the below for a **project page**:
 ```css
 /* Apply the custom font to the specified HTML elements */
 /* Page content including description, more information, download, devlogs, comments, etc */
@@ -75,7 +75,7 @@ Paste the below to apply to a project page:
 }
 ```
 
-Paste the below to apply to a profile page:
+Paste the below for a **profile page**:
 ```css
 /* Apply the custom font to the specified HTML elements */
 /* Profile name */
