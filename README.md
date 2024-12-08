@@ -3,6 +3,21 @@ Use any desired custom font on [itch.io](https://itch.io/) with a woff2, woff, o
 
 [Itch.io](https://itch.io/)'s pages are limited to the use of fonts hosted on Google Fonts. While this does allow for a multitude of options (1,731 different fonts as of 2024), many projects have custom fonts used in game or associated with their brand. Using your projects font on itch is relatively simple and will align your page with your games theming/aesthetic.
 
+<div style="display: flex;">
+  <div style="flex: 50%; padding: 10px;">
+    ## Steps
+    - [CSS Account Access](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#css-account-access)
+    - [Convert Font File to Base64](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#convert-font-file-to-base64)
+    - [Copy & Paste](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#copy--paste)
+  </div>
+  <div style="flex: 50%; padding: 10px;">
+    ## Extras
+    - [Helpful CSS for Text Settings & Sizing](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#helpful-css-for-text-settings--sizing)
+    - [Loading Font from Web](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#loading-font-from-web)
+    - [Examples](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#examples)
+  </div>
+</div>
+
 ## Steps
 - [CSS Account Access](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#css-account-access)
 - [Convert Font File to Base64](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#convert-font-file-to-base64)
