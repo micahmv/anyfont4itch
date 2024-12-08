@@ -19,7 +19,7 @@ Before adding custom CSS to your page, you’ll need to enable CSS permissions f
 
 In your email, include the type of changes you intend to make and confirm that your modifications will only affect visuals. You can find detailed instructions on what to include in your request [here](https://itch.io/docs/creators/css-guide#getting-css-access).
 
-Response times may vary, but itch.io typically approves requests. In my experience, it has taken 1-2 weeks to receive a response. Once your CSS permissions are granted, return to this guide and proceed to the next step.
+Response times may vary, but itch.io typically approves all requests. In my experience, it has taken 1-2 weeks to receive a response. Once your CSS permissions are granted, return to this guide and proceed to the next step.
 
 ## Convert Font File to Base64
 To use the font on itch.io, the file needs to be converted to Base64. This process encodes the file into a long string of characters, which can then be included with the rest of the css. To convert your file, there exist a variety of online options. I’ve used https://base64.guru/converter/encode/file for this purpose.
