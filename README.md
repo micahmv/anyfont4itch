@@ -145,6 +145,7 @@ If your font is already being hosted online and is consistently accessible you c
 Profiles:
 - My Profile: https://h4c1m.itch.io/
 - Simple Profile: https://spiral-dev-team.itch.io/
+
 Games:
 - https://h4c1m.itch.io/wildekey
 - https://spiral-dev-team.itch.io/project-spiral
