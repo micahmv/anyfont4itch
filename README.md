@@ -6,7 +6,7 @@ Use any desired custom font on [itch.io](https://itch.io/) with a woff2, woff, o
 ## Steps
 1. [Enable CSS Account Access](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#enable-css-account-access)
 2. [Convert Font File to Base64](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#convert-font-file-to-base64)
-3. [Copy & Paste Custom CSS](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#copy--paste)
+3. [Copy & Paste Custom CSS](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#copy--paste-custom-css)
 
 ## Extras
 - [Helpful CSS for Text Settings & Sizing](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#helpful-css-for-text-settings--sizing)
@@ -23,8 +23,8 @@ Response times vary, however itch generally approves all requests. Once you have
 ## Convert Font File to Base64
 To use the font on itch.io, the file needs to be converted to Base64. This process encodes the file into a long string of characters, which can then be included with the rest of the css. To convert your file, there exist a variety of online options. I’ve used https://base64.guru/converter/encode/file for this purpose.
 
-## Copy & Paste
-With your account now having CSS access, pase the code below in your itch.io pages Custom CSS section from the 'Edit theme' button on your page.
+## Copy & Paste Custom CSS
+With your account now having CSS access, paste what's below in your itch.io pages Custom CSS section from the 'Edit theme' button on your page.
 
 Paste the relevant @font-face to the file you encoded to Base64:
 ```css
