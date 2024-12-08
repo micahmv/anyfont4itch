@@ -8,6 +8,11 @@ Use any desired custom font on [itch.io](https://itch.io/) with a woff2, woff, o
 - [Convert Font File to Base64](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#convert-font-file-to-base64)
 - [Copy & Paste](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#copy--paste)
 
+## Extras
+- [Helpful CSS for Text Settings & Sizing](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#helpful-css-for-text-settings--sizing)
+- [Loading Font from Web](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#loading-font-from-web)
+- [Examples](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#examples)
+
 ## CSS Account Access
 Before being able to add custom CSS for your page, you will need to enable CSS permissions for your account. This is done by sending an email to [support@itch.io](mailto:support@itch.io). 
 
@@ -98,3 +103,9 @@ Paste the below to apply to a profile page:
     font-family: custom-font;
 }
 ```
+
+## Helpful CSS for Text Settings & Sizing
+
+## Loading Font from Web
+
+## Examples
