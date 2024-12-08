@@ -1,7 +1,7 @@
 # anyfont4itch
 Use any desired custom font on [itch.io](https://itch.io/) with a woff2, woff, otf, or ttf font file.
 
-[Itch.io](https://itch.io/)'s pages are limited to the use of fonts hosted on Google Fonts. While this does allow for a multitude of options (1,731 different fonts as of 2024), many projects have custom fonts used in game or associated with their brand. Using your projects font on itch is relatively simple and will align your page with your games theming/aesthetic.
+[Itch.io](https://itch.io/) pages are limited to fonts hosted on Google Fonts. While this provides a wide selection (1,731 fonts as of 2024), many projects feature custom fonts that are tied to their brainding or are used in-game. Incorporating your project’s font into your itch.io page is straightforward and helps maintain consistency with your game’s theme and aesthetic.
 
 ## Steps
 1. [Enable CSS Account Access](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#enable-css-account-access)
@@ -15,11 +15,11 @@ Use any desired custom font on [itch.io](https://itch.io/) with a woff2, woff, o
 - [Examples](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#examples)
 
 ## Enable CSS Account Access
-Before being able to add custom CSS for your page, you will need to enable CSS permissions for your account. This is done by sending an email to [support@itch.io](mailto:support@itch.io). 
+Before adding custom CSS to your page, you’ll need to enable CSS permissions for your account. To do this, send an email to [support@itch.io](mailto:support@itch.io).
 
-Itch instructs to include the type of intended changes and a confirmation of only configuring visuals. See full on instructions on what to include in your email [here](https://itch.io/docs/creators/css-guide#getting-css-access). 
+In your email, include the type of changes you intend to make and confirm that your modifications will only affect visuals. You can find detailed instructions on what to include in your request [here](https://itch.io/docs/creators/css-guide#getting-css-access). .
 
-Response times vary, however itch generally approves all requests. Once you have your account access come back to this page and continue to the next step.
+Response times may vary, but itch.io typically approves requests. In my experience, it has taken 1-2 weeks to receive a response. Once your CSS permissions are granted, return to this guide and proceed to the next step.
 
 ## Convert Font File to Base64
 To use the font on itch.io, the file needs to be converted to Base64. This process encodes the file into a long string of characters, which can then be included with the rest of the css. To convert your file, there exist a variety of online options. I’ve used https://base64.guru/converter/encode/file for this purpose.
@@ -27,7 +27,7 @@ To use the font on itch.io, the file needs to be converted to Base64. This proce
 ## Copy & Paste Custom CSS
 With your account now having CSS access, paste what's below in your itch.io pages Custom CSS section from the 'Edit theme' button on your page.
 
-Paste the relevant @font-face to the file you encoded to Base64:
+Paste the relevant @font-face for your filetype before it was encoded, replacing the placeholder with your Base64 string:
 ```css
 /* WOFF2 Web Open Font Format 2 */
 @font-face {
@@ -106,7 +106,8 @@ Paste the below for a **PROFILE** page
 ```
 
 ## Helpful CSS for Text Settings & Sizing
-It's likely you'll need to find the right settings and size for your text to fit your page. As well, different sections (like body vs footer) might need different text sizes. CSS is a styling language and there exists much more to customize your text, this is just a minimum to have correct text settings and size your text to fit your page. 
+
+You’ll likely need to adjust the settings and size of your text to ensure it fits well on your page. Different sections, such as the body and footer, may require different text sizes. CSS is a styling language that offers many customization options for text. This is just a minimum to have correct text settings and size your text to fit your page.
 
 Paste any of the lines below between the {} of the @font-face to apply to all text or into the {} of any specified html element to apply individually.
 ```css
@@ -115,15 +116,17 @@ Paste any of the lines below between the {} of the @font-face to apply to all te
     font-style: normal; /* options: normal, italic, oblique */
     font-size: 20px;
     letter-spacing: 1px; /* space between characters */
+    /* px can be replaced with other unit types (cm, mm, in, pt, pc) */
 }
 ```
 
 ## Reached Maximum Character Count?
-Itch Custom CSS inclusion has a maximum character count. Large files converted to Base64 will be encoded as longer strings. As such it's possible to fill up the character count from a files size/Base64 strings length, the inclusion of multiple fonts, or having a significant amount of added custom css. In this case, I would recommend using woff2 exclusively as the file converted to Base64 as it's the smallest file web font data type. Another solution can be using a url to an online hosted font file to reduce characters used by Base64 font characters.
+Itch.io's custom CSS inclusion has a maximum character limit, which can be quickly reached when using large files encoded as Base64 strings. This limit may also be exceeded by including multiple fonts or adding extensive custom CSS. To minimize character usage, I recommend using only the WOFF2 format for Base64 encoding, as it’s the most compact web font data type. Alternatively, you can link to an online-hosted font file via a URL, eliminating the need for Base64 encoding and conserving characters.
 
 ## Loading Font from URL
 If your font is already being hosted online and is consistently accessible you can simply load it using the url.
 ```css
+/* Delete url lines that aren't your file type */
 @font-face {
     font-family: 'custom-font';
     src: url('YOUR_WEB_HOSTED_WOFF2_FILE_URL_PATH') format('woff2'),
