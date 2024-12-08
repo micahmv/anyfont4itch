@@ -6,7 +6,7 @@ Use any desired custom font on [itch.io](https://itch.io/) with a woff2, woff, o
 ## Steps
 1. [Enable CSS Account Access](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#enable-css-account-access)
 2. [Convert Font File to Base64](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#convert-font-file-to-base64)
-3. [Copy & Paste](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#copy--paste)
+3. [Copy & Paste Custom CSS](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#copy--paste)
 
 ## Extras
 - [Helpful CSS for Text Settings & Sizing](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#helpful-css-for-text-settings--sizing)
