@@ -12,7 +12,6 @@ Use any desired custom font on [itch.io](https://itch.io/) with a woff2, woff, o
 - [Helpful CSS for Text Settings & Sizing](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#helpful-css-for-text-settings--sizing)
 - [Reached Maximum Character Count?](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#reached-maximum-character-count)
 - [Loading Font from URL](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#loading-font-from-url)
-- [Itch's HTML Structure for Pages]
 - [Examples](https://github.com/micahmv/anyfont4itch?tab=readme-ov-file#examples)
 
 ## Enable CSS Account Access
@@ -143,71 +142,6 @@ If your font is already being hosted online and is consistently accessible you c
          url('YOUR_WEB_HOSTED_TTF_FILE_URL_PATH') format('truetype');
 }
 ```
-
-## Itch's HTML Structure for Pages
-You may want to add further changes and refinements to your pages via HTML. Itch's project page HTML structure is as seen below, any class or id of which can be modified. This information is available from https://itch.io/docs/creators/css-guide#project-page-layout.
-<fieldset>
-    <legend><code>#wrapper</code> (default width: <code>100%</code>)</legend>
-<fieldset>
-    <legend><code>#inner_column</code> (default width: <code>960px</code>)</legend>
-    <p></p>
-    <p></p>
-    <fieldset>
-        <legend><code>.header</code></legend>
-        <p></p>
-        <p></p>
-        <fieldset>
-            <legend><code>h1</code></legend>
-            The title of the game. Is not visible when there is a banner
-        </fieldset>
-        <p></p>
-        <p></p>
-        <fieldset>
-            <legend><code>img</code></legend>
-            The game’s banner, if uploaded
-        </fieldset>
-        <p></p>
-        <p></p>
-    </fieldset>
-    <p></p>
-    <p></p>
-    <fieldset>
-        <legend><code>.columns</code></legend>
-        <div style="display: flex">
-            <p></p>
-            <p></p>
-            <fieldset style="flex: 2">
-                <legend><code>.left_col.column</code></legend>
-                <p></p>
-                <p></p>
-                <fieldset>
-                    <legend><code>.formatted_description</code> (default width: <code>553px</code>)</legend>
-                    The text you supplied for description
-                </fieldset>
-                <p></p>
-                <p>Downloads, buy button, comments, devlogs, and message board links come here, depending on how your page is configured</p>
-            </fieldset>
-            <p></p>
-            <p></p>
-            <fieldset style="flex: 1">
-                <legend><code>.right_col.column</code></legend>
-                Screenshots
-            </fieldset>
-            <p></p>
-            <p></p>
-        </div>
-        </fieldset>
-        <p></p>
-        <p></p>
-        <fieldset>
-            <legend><code>.footer</code></legend>
-            itch.io’s footer, <strong>do not hide these links</strong>
-        </fieldset>
-        <p></p>
-        <p></p>
-    </fieldset>
-</fieldset>
-
 
 ## Examples
 Games:
