@@ -110,6 +110,8 @@ Paste the below for a **PROFILE** page:
 }
 ```
 
+If this guide helped improve your page, consider giving the repository a ⭐!
+
 ## Helpful CSS for Text Settings & Sizing
 
 You’ll likely need to adjust the settings and size of your text to ensure it fits well on your page. Different sections, such as the body and footer, may require different text sizes. CSS is a styling language that offers many customization options for text. This is just a minimum to have correct text settings and size your text to fit your page.
