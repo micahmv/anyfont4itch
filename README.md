@@ -128,7 +128,7 @@ Paste any of the lines below between the {} of the @font-face to apply to all te
 ```
 
 ## Reached Maximum Character Count?
-Itch.io's custom CSS inclusion has a character count limit of 5,120 which can be quickly reached when using large files encoded as Base64 strings. This limit may also be exceeded by including multiple fonts or adding extensive custom CSS. To minimize character usage, I recommend using only the WOFF2 format for Base64 encoding, as it’s the most compact web font data type. Alternatively, you can link to an online-hosted font file via a URL, eliminating the need for Base64 encoding and conserving characters.
+Itch.io's custom CSS inclusion has a character count limit of 5,120 which can be quickly reached when using large files encoded as Base64 strings. This limit may also be exceeded by including multiple fonts or adding extensive custom CSS. To minimize character usage, I recommend using only the WOFF2 format for Base64 encoding, as it’s the most compact web font data type. You can easily and quickly covert any file type described in this guide to WOFF2 using https://cloudconvert.com/font-converter. Alternatively, you can link to an online-hosted font file via a URL, eliminating the need for Base64 encoding and conserving characters.
 
 ## Loading Font from URL
 If your font is already being hosted online and is consistently accessible you can simply load it using the url.
